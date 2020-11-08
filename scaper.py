@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-keyword = 'chanel+earrings'
+keyword = 'candle'
 results = []
 
 headers = {
@@ -56,7 +56,7 @@ for i in range(1,11):
         for stat in stats:
             #print('stat=',stat.text)
             result['status'] = stat.text
-        print('result=', result)
+        #print('result=', result)
         results.append(result)
 
 
@@ -65,7 +65,7 @@ for i in range(1,11):
 
 import json
 j = json.dumps(results)
-with open ('items2.json', 'w') as f:
+with open ('items.json', 'w') as f:
     f.write(j)
     
 
