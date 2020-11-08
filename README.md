@@ -1,8 +1,8 @@
 # Web Scraping
 
-## Chanel Earrings
+## Candles
 
-The search term for my webscraping project was Chanel Earrings.
+The search term for my webscraping project was Candle.
 
 ## Link to Project Description
 
